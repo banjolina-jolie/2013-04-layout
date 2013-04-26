@@ -104,3 +104,87 @@ figure {
   background: url("joy.png") 25px 25px no-repeat;
   background-size: 375px 465px;
 }
+
+.input {
+  display: block;
+  position: relative;
+  text-align: left;
+}
+
+.signup {
+  width: 360px;
+  margin: 0 auto;
+  text-align: center;
+  float: left;
+  padding-top: 40px;
+  margin-left: 10px;
+}
+
+form span {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 35px;
+  font-size: 18px;
+  color: #a9a9a9;
+  z-index: 1;
+  cursor: text;
+  text-align: left;
+}
+
+.signup form {
+  margin-top: 15px;
+}
+
+.signup input {
+  border: 1px solid #CCC;
+  border-top: 1px solid #999;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  display: block;
+  font-size: 18px;
+  height: 25px;
+  margin: 0 auto 15px;
+  padding: 5px;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  width: 300px;
+}
+
+ input[type="submit"] {
+  color: white;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  height: 42px;
+  padding: 0 10px;
+  cursor: pointer;
+  background-color: #393;
+  display: inline;
+  width: 150px;
+}
+
+.signup h2 {
+  font-size: 28px;
+  color: #c00;
+}
+
+.signup h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.signup p {
+  margin: 0 30px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+footer {
+  margin-top: 500px;
+  margin-left: 0;
+  position: absolute;
+}
