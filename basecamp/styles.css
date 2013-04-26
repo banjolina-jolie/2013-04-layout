@@ -1,3 +1,106 @@
 body{
-  /* rules go here */
+  font-size: 14px;
+  line-height: 1.2em;
+  color: #000;
+  font-family: "ProximaNova", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+nav {
+  padding: 20px 30px 10px;
+  border-bottom: 1px solid #d4cdc1;
+  position: relative;
+}
+.signin a{
+  display: block;
+  color: #fff;
+  background-color: #06C;
+  padding: 8px 14px 9px 14px;
+  margin: 0 0 0 10px;
+}
+
+.logo {
+  background: url("logo.png") no-repeat center top;
+  height: 55px;
+  width: 194px;
+  background-size: 194px 55px;
+  display: inline-block;
+  text-indent: -9000px;
+
+
+}
+.blog {
+
+}
+
+.trialLength {
+
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto 20px;
+}
+
+nav ul {
+  float: right;
+  list-style-type: none;
+  margin: 15px -30px 0 0;
+  padding: 0;
+}
+
+strong {
+  font-size: 16px;
+}
+
+nav li {
+  float: left;
+  margin-right: 30px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.1em;
+}
+
+a {
+  color: #06c;
+}
+
+.content{
+
+}
+
+header {
+  padding: 40px 0 60px;
+}
+
+h1 {
+  font-size: 46px;
+  letter-spacing: -1px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.1em;
+
+}
+.drawing {
+  background: url("signup-drawing2.png") no-repeat;
+  overflow: hidden;
+  position: relative;
+  margin-top: -40px;
+  border-bottom: 1px solid #d4cdc1;
+  }
+
+aside {
+  float: left;
+  width: 170px;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+figure {
+  float: left;
+  margin: 70px 0 0 175px;
+  width: 393px;
+  height: 490px;
+  background: url("joy.png") 25px 25px no-repeat;
+  background-size: 375px 465px;
 }
