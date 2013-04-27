@@ -1,3 +1,71 @@
-body{
-  /* rules go here */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0;
+  font-family: 'proxima-nova','Helvetica','Avenir',sans-serif;
+  font-weight: 400;
 }
+
+#sideNav {
+  position: fixed;
+  width: 26%;
+  padding-left: 3%;
+  padding-top: 30px;
+}
+
+#lake {
+  position: relative;
+  margin-left: 26%;
+  border-left: 1px solid #e3e3e3;
+  min-height: 900px;
+  background-color: #fff;
+}
+
+#start {
+  padding: 40px 0 40px 40px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+article {
+  display: block;
+  position: relative;
+  padding: 40px 100px 40px 50px;
+  min-height: 130px;
+  max-width: 500px;
+}
+
+article h2 {
+  margin-bottom: 20px;
+}
+
+article p {
+  color:#373737;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Breakpoints */
+
+@media all and (max-width: 750px) {
+  #sideNav {
+    display: block;
+    position: relative;
+    min-height: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    float: none;
+    text-align: center;
+  }
+  #start {
+    display: none;
+  }
+  #lake {
+    margin-left: 0;
+  }
+  article {
+    padding: 40px 40px 40px 50px;
+  }
+}
+
